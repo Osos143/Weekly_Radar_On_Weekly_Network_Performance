@@ -1,0 +1,21 @@
+aggregate_date,week_label,region,carrier_name,technology_type,sample_count_total,main_signal,download_gap_pct_vs_peer,latency_gap_pct_vs_peer,anomaly_score,method,anomaly_level,download_pct_change,latency_pct_change,top_download_drop_flag,top_latency_rise_flag
+2026-03-08,2026-03-08,Assiut,Operator C,LTE,168,latency above peer,-67.4604182740993,70.64690482488737,138.10732309898668,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Assiut,Operator C,LTE,176,latency above peer,-52.02601672991231,83.96376932025927,135.98978605017157,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-15,2026-03-15,Assiut,Operator C,LTE,137,download below peer,-68.49829633885547,66.7867713512863,135.28506769014177,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-08,2026-03-08,Ismailia,Operator C,LTE,323,latency above peer,-61.67527755988773,69.1163126674661,130.79159022735382,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Ismailia,Operator C,LTE,483,latency above peer,-61.89357077302854,64.36972921600113,126.26329998902968,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Alexandria,Operator C,LTE,180,download below peer,-65.18462701170112,57.856224550380304,123.04085156208143,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-15,2026-03-15,Gharbia,Operator C,LTE,159,latency above peer,-56.64264870690361,63.214965408543804,119.8576141154474,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-15,2026-03-15,Ismailia,Operator C,LTE,374,latency above peer,-51.12646999177382,57.4576355551219,108.58410554689571,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-15,2026-03-15,Monufia,Operator C,LTE,37,download below peer,-55.96262136256657,52.30855387300423,108.27117523557081,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-15,2026-03-15,Giza,Operator C,LTE,3103,download below peer,-65.76965175510132,42.32054762098131,108.09019937608264,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-08,2026-03-08,Giza,Operator C,LTE,3113,download below peer,-65.26821659698244,40.167333876168456,105.4355504731509,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Giza,Operator C,LTE,3231,download below peer,-66.12814914651426,33.34431573961771,99.47246488613197,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Assiut,Operator C,Multi-RAT,344,latency above peer,-21.874904991787908,71.70920842592884,93.58411341771674,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Monufia,Operator C,Multi-RAT,85,download below peer,-52.71100622212797,37.68760636330003,90.398612585428,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-08,2026-03-08,Gharbia,Operator C,LTE,140,latency above peer,-32.8128100125504,55.943690536219925,88.75650054877033,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-08,2026-03-08,Monufia,Operator C,Multi-RAT,102,download below peer,-65.36696371940022,22.467537994674213,87.83450171407443,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-01,2026-03-01,Cairo,Operator B,Multi-RAT,10404,download below peer,-51.19943088846475,34.152553317454476,85.35198420591922,Cross-sectional badness score,region-carrier-technology-week,,,,
+2026-03-08,2026-03-08,Dakahlia,All carriers,All technologies,119686,download drop,,,1.6111111111111112,Week-over-week change score,region-week-change,-10.980717449700549,2.8607166066632495,False,False
+2026-03-15,2026-03-15,Dakahlia,All carriers,All technologies,122820,download drop,,,1.3888888888888888,Week-over-week change score,region-week-change,-6.325004517633504,4.084741892756427,False,True
+2026-03-08,2026-03-08,Port Said,All carriers,All technologies,119499,download drop,,,1.3333333333333333,Week-over-week change score,region-week-change,-7.344897228059932,2.6960921175157138,False,False

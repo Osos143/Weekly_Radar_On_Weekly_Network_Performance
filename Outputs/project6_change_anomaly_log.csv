@@ -1,0 +1,4 @@
+aggregate_date,week_label,region,carrier_name,technology_type,sample_count_total,main_signal,download_pct_change,latency_pct_change,anomaly_score,method,anomaly_level
+2026-03-08,2026-03-08,Dakahlia,All carriers,All technologies,119686.0,download drop,-10.980717449700549,2.8607166066632495,1.7692307692307692,Week-over-week change score,region-week-change
+2026-03-15,2026-03-15,Dakahlia,All carriers,All technologies,122820.0,download drop,-6.325004517633504,4.084741892756427,1.6153846153846154,Week-over-week change score,region-week-change
+2026-03-08,2026-03-08,Port Said,All carriers,All technologies,119499.0,download drop,-7.344897228059932,2.6960921175157138,1.6153846153846154,Week-over-week change score,region-week-change
