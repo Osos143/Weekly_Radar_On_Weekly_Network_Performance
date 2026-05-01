@@ -391,6 +391,154 @@
   .methods table { font-size: 20px; }
 
 
+  /* V7 slide 9 centering and clipping fix */
+  .surprise .content {
+    left: 70px !important;
+    right: 70px !important;
+    top: 112px !important;
+    bottom: 42px !important;
+    grid-template-columns: 56.5% 43.5% !important;
+    gap: 24px !important;
+    align-items: start !important;
+  }
+  .surprise .content > div { min-width: 0; }
+  .surprise .table-wrap {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .surprise .table-title {
+    width: 100%;
+    text-align: center !important;
+  }
+  .surprise table.anom-table {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .surprise .caption {
+    width: 100% !important;
+    display: block;
+    text-align: center !important;
+    margin: 10px auto 0 !important;
+  }
+  .surprise .block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .surprise .block .bbody {
+    font-size: 22px !important;
+    line-height: 1.14 !important;
+    padding: 14px 18px !important;
+    overflow-wrap: anywhere;
+  }
+  .surprise ul {
+    margin-top: 18px !important;
+    padding-left: 24px !important;
+    max-width: 100%;
+  }
+  .surprise li {
+    font-size: 20.5px !important;
+    line-height: 1.12 !important;
+    margin-bottom: 12px !important;
+    overflow-wrap: anywhere;
+  }
+
+
+  /* V8 global centering pass across all slides */
+  .content { left: 36px; right: 36px; top: 104px; bottom: 42px; }
+
+  /* Slide 2 */
+  .slide2 .content {
+    left: 36px !important; right: 36px !important; top: 104px !important; bottom: 42px !important;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .slide2-layout { width: 95%; margin: 0 auto; }
+
+  /* Slide 3 already centered; keep symmetric margins */
+  .eda .content { left: 36px; right: 36px; top: 104px; bottom: 42px; }
+  .eda-grid { width: 95%; margin: 0 auto; }
+  .eda-bottom { width: 95%; margin: 18px auto 0; }
+
+  /* Slide 4 */
+  .q1 .content {
+    left: 36px !important; right: 36px !important; top: 104px !important; bottom: 42px !important;
+    display: flex; flex-direction: column; justify-content: center; gap: 16px;
+  }
+  .q1-top, .q1-bottom { width: 95%; margin-left: auto; margin-right: auto; }
+
+  /* Slide 5 */
+  .q2 .content {
+    left: 36px !important; right: 36px !important; top: 104px !important; bottom: 42px !important;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .q2 .single-chart, .q2 .answer, .q2 .wow-box { width: 95%; margin-left: auto; margin-right: auto; }
+
+  /* Slide 6 */
+  .q3 .content {
+    left: 36px !important; right: 36px !important; top: 104px !important; bottom: 42px !important;
+    display: flex; flex-direction: column; justify-content: center; gap: 18px;
+  }
+  .q3-top, .q3-bottom { width: 95%; margin-left: auto; margin-right: auto; }
+
+  /* Slide 7 */
+  .q4 .content { left: 36px !important; right: 36px !important; top: 104px !important; bottom: 32px !important; }
+  .q4 .twocol, .q4 .block { width: 95% !important; margin-left: auto !important; margin-right: auto !important; }
+
+  /* Slide 8 */
+  .methods .content {
+    left: 36px !important; right: 36px !important; top: 104px !important; bottom: 42px !important;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .methods table, .methods .process-caption, .methods .block { width: 95%; margin-left: auto; margin-right: auto; }
+  .methods .process-caption { margin-top: 10px; }
+
+  /* Slide 9 keep centered slide-only fixes, but use symmetric outer margins */
+  .surprise .content {
+    left: 50px !important; right: 50px !important; top: 112px !important; bottom: 42px !important;
+  }
+
+  /* Slide 10 */
+  .lessons .content {
+    left: 36px !important; right: 36px !important; top: 112px !important; bottom: 38px !important;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .lessons-grid, .lessons .takeaway { width: 95% !important; margin-left: auto !important; margin-right: auto !important; }
+  .lessons .takeaway { margin-top: 18px !important; }
+
+
+  /* V9 slide 9 vertical/horizontal centering refinement */
+  .surprise .content {
+    left: 72px !important;
+    right: 72px !important;
+    top: 112px !important;
+    bottom: 52px !important;
+    grid-template-columns: 56% 44% !important;
+    gap: 28px !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+  .surprise .table-wrap {
+    width: 98% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-self: center !important;
+  }
+  .surprise .content > div:last-child {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center !important;
+  }
+  .surprise .caption {
+    margin-top: 12px !important;
+    text-align: center !important;
+  }
+
+
   @media print {
     html, body { width: 1600px; background: #fff; }
     .deck { margin: 0; }
@@ -572,44 +720,49 @@
 </section>
 
 
+
 <section class="slide surprise">
   <div class="titlebar">Most Surprising Finding</div>
   <div class="content">
     <div class="table-wrap">
-      <div class="table-title">Top Cross-Sectional Anomaly Scores</div>
+      <div class="table-title">Full Combined Anomaly Log</div>
       <table class="anom-table">
         <thead>
-          <tr><th>Week</th><th>Region</th><th>Carrier</th><th>Tech</th><th>DL Gap</th><th>Lat Gap</th><th>Score</th></tr>
+          <tr><th>Type</th><th>Week</th><th>Region</th><th>Carrier</th><th>Tech</th><th>DL Gap/&Delta;</th><th>Lat Gap/&Delta;</th><th>Score</th></tr>
         </thead>
         <tbody>
-<tr><td>2026-03-08</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-67.5%</td><td>70.6%</td><td>138.1</td></tr>
-<tr><td>2026-03-01</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-52.0%</td><td>84.0%</td><td>136.0</td></tr>
-<tr><td>2026-03-15</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-68.5%</td><td>66.8%</td><td>135.3</td></tr>
-<tr><td>2026-03-08</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-61.7%</td><td>69.1%</td><td>130.8</td></tr>
-<tr><td>2026-03-01</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-61.9%</td><td>64.4%</td><td>126.3</td></tr>
-<tr><td>2026-03-01</td><td>Alexandria</td><td class="opC">Operator C</td><td>LTE</td><td>-65.2%</td><td>57.9%</td><td>123.0</td></tr>
-<tr><td>2026-03-15</td><td>Gharbia</td><td class="opC">Operator C</td><td>LTE</td><td>-56.6%</td><td>63.2%</td><td>119.9</td></tr>
-<tr><td>2026-03-15</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-51.1%</td><td>57.5%</td><td>108.6</td></tr>
-<tr><td>2026-03-15</td><td>Monufia</td><td class="opC">Operator C</td><td>LTE</td><td>-56.0%</td><td>52.3%</td><td>108.3</td></tr>
-<tr><td>2026-03-15</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-65.8%</td><td>42.3%</td><td>108.1</td></tr>
-<tr><td>2026-03-08</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-65.3%</td><td>40.2%</td><td>105.4</td></tr>
-<tr><td>2026-03-01</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-66.1%</td><td>33.3%</td><td>99.5</td></tr>
-<tr><td>2026-03-01</td><td>Assiut</td><td class="opC">Operator C</td><td>Multi-RAT</td><td>-21.9%</td><td>71.7%</td><td>93.6</td></tr>
-<tr><td>2026-03-01</td><td>Monufia</td><td class="opC">Operator C</td><td>Multi-RAT</td><td>-52.7%</td><td>37.7%</td><td>90.4</td></tr>
-<tr><td>2026-03-08</td><td>Gharbia</td><td class="opC">Operator C</td><td>LTE</td><td>-32.8%</td><td>55.9%</td><td>88.8</td></tr>
+<tr><td>Peer</td><td>2026-03-08</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-67.5%</td><td>+70.6%</td><td>1.983</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-68.5%</td><td>+66.8%</td><td>1.974</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Alexandria</td><td class="opC">Operator C</td><td>LTE</td><td>-65.2%</td><td>+57.9%</td><td>1.905</td></tr>
+<tr><td>Peer</td><td>2026-03-08</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-61.7%</td><td>+69.1%</td><td>1.905</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-65.8%</td><td>+42.3%</td><td>1.897</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-61.9%</td><td>+64.4%</td><td>1.897</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Assiut</td><td class="opC">Operator C</td><td>LTE</td><td>-52.0%</td><td>+84.0%</td><td>1.871</td></tr>
+<tr><td>Peer</td><td>2026-03-08</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-65.3%</td><td>+40.2%</td><td>1.871</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Monufia</td><td class="opC">Operator C</td><td>Multi-RAT</td><td>-52.7%</td><td>+37.7%</td><td>1.855</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Gharbia</td><td class="opC">Operator C</td><td>LTE</td><td>-56.6%</td><td>+63.2%</td><td>1.853</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Cairo</td><td class="opB">Operator B</td><td>Multi-RAT</td><td>-51.2%</td><td>+34.2%</td><td>1.838</td></tr>
+<tr><td>Peer</td><td>2026-03-01</td><td>Giza</td><td class="opC">Operator C</td><td>LTE</td><td>-66.1%</td><td>+33.3%</td><td>1.836</td></tr>
+<tr><td>Peer</td><td>2026-03-08</td><td>Monufia</td><td class="opC">Operator C</td><td>Multi-RAT</td><td>-65.4%</td><td>+22.5%</td><td>1.829</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Assiut</td><td class="opC">Operator C</td><td>5G</td><td>-24.7%</td><td>+67.9%</td><td>1.818</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Ismailia</td><td class="opC">Operator C</td><td>LTE</td><td>-51.1%</td><td>+57.5%</td><td>1.802</td></tr>
+<tr><td>Peer</td><td>2026-03-15</td><td>Dakahlia</td><td class="opB">Operator B</td><td>Multi-RAT</td><td>-37.5%</td><td>+46.8%</td><td>1.786</td></tr>
+<tr><td>Peer</td><td>2026-03-08</td><td>Dakahlia</td><td class="opB">Operator B</td><td>Multi-RAT</td><td>-38.0%</td><td>+44.3%</td><td>1.761</td></tr>
+<tr><td>WoW</td><td>2026-03-08</td><td>Dakahlia</td><td>All carriers</td><td>All technologies</td><td>-11.0%</td><td>+2.9%</td><td>1.769</td></tr>
+<tr><td>WoW</td><td>2026-03-15</td><td>Dakahlia</td><td>All carriers</td><td>All technologies</td><td>-6.3%</td><td>+4.1%</td><td>1.615</td></tr>
+<tr><td>WoW</td><td>2026-03-08</td><td>Port Said</td><td>All carriers</td><td>All technologies</td><td>-7.3%</td><td>+2.7%</td><td>1.615</td></tr>
         </tbody>
       </table>
-      <div class="caption"><span class="label">Table 3:</span> Highest raw badness scores from the peer-comparison anomaly log.</div>
+      <div class="caption"><span class="label">Table 3:</span> Full anomaly log: 17 peer-comparison anomalies + 3 WoW region-change anomalies.</div>
     </div>
     <div>
-      <div class="block"><div class="btitle">Most surprising result</div><div class="bbody"><strong>Operator C dominated the peer anomaly results</strong>, especially on <strong>LTE</strong>.</div></div>
+      <div class="block"><div class="btitle">Most surprising result</div><div class="bbody"><strong>Operator C still dominates the peer anomalies</strong>, but the full log also shows Operator B and regional WoW alerts.</div></div>
       <ul style="margin-top:22px;">
-        <li><strong>16 of the 17</strong> peer anomalies were driven by <strong>Operator C</strong>; <strong>13 of 17</strong> were LTE cases.</li>
-        <li>The strongest C cases were not mild deviations: download was often <strong>51–68% below peers</strong> while latency was <strong>33–84% above peers</strong>.</li>
-        <li>The issue repeated across several regions: <strong>Assiut, Ismailia, Alexandria, Gharbia, Monufia,</strong> and <strong>Giza</strong>.</li>
-        <li><strong>Operator B also appeared</strong> once in high-severity Multi-RAT anomalies in <strong>Cairo</strong>, proving the log is not blindly carrier-biased.</li>
+        <li><strong>20 total anomalies</strong> were logged: <strong>17 peer anomalies</strong> and <strong>3 week-over-week anomalies</strong>.</li>
+        <li><strong>Operator C appears in 14 of 17 peer anomalies</strong>, showing a repeated carrier-technology weakness.</li>
+        <li><strong>Operator B appears in 3 peer anomalies</strong>, mainly Multi-RAT cases, so the method is not blindly carrier-biased.</li>
+        <li>The <strong>3 WoW alerts</strong> are all-carrier regional changes: <strong>Dakahlia twice</strong> and <strong>Port Said once</strong>.</li>
       </ul>
-      <div class="small-note"><strong>Interpretation:</strong> Cross-sectional scoring exposed a persistent carrier-technology weakness rather than a single regional accident; combined with WoW alerts, the final anomaly log contains 20 rows.</div>
     </div>
   </div>
   <div class="pnum">9 / 10</div>
