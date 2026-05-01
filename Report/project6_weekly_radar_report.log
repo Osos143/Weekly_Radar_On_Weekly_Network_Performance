@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.18)  1 MAY 2026 13:09
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.18)  1 MAY 2026 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./project6_weekly_radar_report_updated.tex
-(project6_weekly_radar_report_updated.tex
+**./project6_weekly_radar_report.tex
+(project6_weekly_radar_report.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -562,8 +562,8 @@ File: l3backend-xetex.def 2025-04-14 L3 backend support: XeTeX
 \g__graphics_track_int=\count343
 \g__pdfannot_backend_int=\count344
 \g__pdfannot_backend_link_int=\count345
-) (project6_weekly_radar_report_updated.aux)
-\openout1 = `project6_weekly_radar_report_updated.aux'.
+) (project6_weekly_radar_report.aux)
+\openout1 = `project6_weekly_radar_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -637,11 +637,10 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 74.
 Package hyperref Info: Link coloring ON on input line 74.
-
-(project6_weekly_radar_report_updated.out)
-(project6_weekly_radar_report_updated.out)
+ (project6_weekly_radar_report.out)
+(project6_weekly_radar_report.out)
 \@outlinefile=\write3
-\openout3 = `project6_weekly_radar_report_updated.out'.
+\openout3 = `project6_weekly_radar_report.out'.
 
 File: Images/ITI_Logo.png Graphic file (type bmp)
 <Images/ITI_Logo.png>
@@ -660,9 +659,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-] (project6_weekly_radar_report_updated.toc)
+] (project6_weekly_radar_report.toc)
 \tf@toc=\write4
-\openout4 = `project6_weekly_radar_report_updated.toc'.
+\openout4 = `project6_weekly_radar_report.toc'.
 
 
 
@@ -754,22 +753,22 @@ File: Images/mean_vs_median.png Graphic file (type bmp)
 
 [14]
 
-[15] (project6_weekly_radar_report_updated.aux)
+[15] (project6_weekly_radar_report.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
-Package rerunfilecheck Info: File `project6_weekly_radar_report_updated.out' ha
-s not changed.
+Package rerunfilecheck Info: File `project6_weekly_radar_report.out' has not ch
+anged.
 (rerunfilecheck)             Checksum: CCF4EFC9370A8C28686D19D50A0BA6B5;5158.
  ) 
 Here is how much of TeX's memory you used:
  18340 strings out of 403341
- 348089 string characters out of 5463328
- 734394 words of memory out of 5000000
+ 347889 string characters out of 5463328
+ 734354 words of memory out of 5000000
  46486 multiletter control sequences out of 15000+600000
  683038 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,80p,577b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,80p,569b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project6_weekly_radar_report_updated.pdf (16 pages).
+Output written on project6_weekly_radar_report.pdf (16 pages).
