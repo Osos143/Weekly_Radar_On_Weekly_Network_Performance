@@ -64,19 +64,19 @@ This score increases when a carrier has lower download speed and/or higher laten
 
 ## Deliverables
 
-The project includes:
+The project includes :
 
-* preprocessing notebook;
-* analysis notebook;
-* cleaned CSV outputs;
-* peer anomaly log;
-* week-over-week anomaly log;
-* combined anomaly log;
-* carrier report;
-* region ranking table;
-* mean-vs-median analysis;
-* final PDF report;
-* 10-slide project presentation.
+* preprocessing notebook
+* analysis notebook
+* cleaned CSV outputs
+* peer anomaly log
+* week-over-week anomaly log
+* combined anomaly log
+* carrier report
+* region ranking table
+* mean-vs-median analysis
+* final PDF report
+* 10-slide project presentation
 
 ## Main Lesson
 
